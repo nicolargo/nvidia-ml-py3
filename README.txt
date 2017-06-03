@@ -3,7 +3,7 @@ pyNVML
 ======
 
 ***
-Patched to support Python 3
+Patched to support Python 3 (and Python 2)
 ***
 
 ------------------------------------------------
@@ -17,7 +17,7 @@ For information about the NVML library, see the NVML developer page
 http://developer.nvidia.com/nvidia-management-library-nvml
 
 Download the latest package from:
-http://pypi.python.org/pypi/nvidia-ml-py/
+https://pypi.python.org/pypi/nvidia-ml-py3
 
 Note this file can be run with 'python -m doctest -v README.txt'
 although the results are system dependent
@@ -28,7 +28,12 @@ Python 2.5, or an earlier version with the ctypes module.
 
 INSTALLATION
 ------------
-sudo python setup.py install
+
+    sudo python setup.py install
+
+or
+
+    pip install nvidia-ml-py3
 
 USAGE
 -----
