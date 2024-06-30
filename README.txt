@@ -1,3 +1,11 @@
+
+
+THIS PACKAGE IS DEPRECATED.
+
+PLEASE DID NOT USE IT ANYMORE AND SWITCH TO https://pypi.org/project/nvidia-ml-py/
+
+
+
 ======
 pyNVML
 ======
